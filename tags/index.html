@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tags | Cupr stranka</title>
     <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="code, ">
     
     
     
@@ -25,7 +25,7 @@
 
 
 
-
+<meta property="og:updated_time" content="2018-02-05T07:00:00-06:00"/>
 
 
 
@@ -200,8 +200,44 @@ article header img {
   display: none;
 }
 
-  
+  /* override theme defaults */
+.muted {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* custom styles */
+figure {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+figure img {
+  max-width: 80%;
+}
+figure a {
+  border-bottom: none !important;
+}
+figure a:hover {
+  background-color: inherit !important;
+}
 
+a {
+    color: white;
+    border-bottom: 1px solid teal;
+}
+
+a:hover {
+    background-color: teal;
+    color: black;
+}
+
+nav a.active {
+    background-color: teal;
+    color: black;
+}
+
+a[itemprop="url"] {
+    color: rgb(2, 155, 155);
+}
 </style>
 
     <script async src="/js/lazysizes.min.js"></script>
@@ -218,6 +254,12 @@ article header img {
   <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
     
     
+      <a itemprop="url" class="" href="/"><span itemprop="name">Home</span></a>
+    
+      <a itemprop="url" class="" href="/about/about"><span itemprop="name">Whoami</span></a>
+    
+      <a itemprop="url" class="" href="/posts"><span itemprop="name">Posts</span></a>
+    
   </nav>
 
 
@@ -227,6 +269,18 @@ article header img {
     <h1>Tags</h1>
   </header>
   <ul>
+    
+      <li><a href="assembly">assembly</a> (1)
+    
+      <li><a href="benchmarking">benchmarking</a> (1)
+    
+      <li><a href="c">c</a> (1)
+    
+      <li><a href="criterion.rs">criterion.rs</a> (1)
+    
+      <li><a href="rust">rust</a> (1)
+    
+      <li><a href="test">test</a> (1)
     
   </ul>
 </main>
